@@ -1,0 +1,14 @@
+<h1>Ashwini Employee html</h1>
+<p>{{name}}</p>
+<p>{{empno}}</p>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Employee ID</th>
+    </tr>
+<tr *ngFor="let emp of employee">
+    <td>{{emp.name}}</td>
+    <td>{{emp.empno}}</td>
+</tr>
+</table>
+<button (click)="std()">Student</button>
